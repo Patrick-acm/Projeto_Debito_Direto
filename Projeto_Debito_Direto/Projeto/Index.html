@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversão Dólar para Real</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Preço dollar para Real</h1>
+
+        <div class="card" id="exchange-rate-api">
+            <h2>ExchangeRate-API</h2>
+            <p>1 USD = <span id="rate-exchange-rate-api">...</span> BRL</p>
+        </div>
+
+        <div class="card" id="open-exchange-rates">
+            <h2>OpenExchangeRates</h2>
+            <p>1 USD = <span id="rate-open-exchange-rates">...</span> BRL</p>
+        </div>
+
+        <div class="card" id="currency-layer">
+            <h2>CurrencyLayer</h2>
+            <p>1 USD = <span id="rate-currency-layer">...</span> BRL</p>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
